@@ -11,7 +11,7 @@ module.exports = {
 
         const actualFilter = queue.getFiltersEnabled()[0];
 
-        if (!args[0]) return message.channel.send(`Please specify a valid filter to enable or disable ${message.author}... try again ? ❌\n${actualFilter ? `Filter currently active ${actualFilter} (${client.config.app.px}filter ${actualFilter} to disable it).\n` : ''}`);
+        if (!args[0]) return message.channel.send(`Please specify a valid filter to enable or disable ${message.author}... try again ? ❌\n${actualFilter ? `Filter currently active ${actualFilter} (${client.config.app.prefix}filter ${actualFilter} to disable it).\n` : ''}`);
 
         const filters = [];
 

@@ -10,31 +10,31 @@ If you need help with this project, to get support faster you can join the help 
 
 ### ⚡ Configuration
 
-Open the configuration file located in the main folder `config.js`.
+Open the configuration file located in the main folder `config.json`.
 
-```js
-module.exports = {
-    app: {
-        px: 'XXX',
-        token: 'XXX',
-        playing: 'by Zerio ❤️',
+```json
+{
+    "app": {
+        "prefix": "XXX",
+        "token": "XXX",
+        "playing": "by Zerio ❤️"
     },
 
-    opt: {
-        DJ: {
-            enabled: false,
-            roleName: 'XXX',
-            commands: []
+    "opt": {
+        "DJ": {
+            "enabled": false,
+            "roleName": "DJ",
+            "commands": ["back", "clear", "filter", "loop", "pause", "resume", "seek", "shuffle", "skip", "stop", "volume"]
         },
-        maxVol: 100,
-        discordPlayer: {}
+        "maxVol": 100,
+        "discordPlayer": {}
     }
-};
+}
 ```
 
 Basic configuration
 
-- `app/px`, the prefix that will be set to use the bot
+- `app/prefix`, the prefix that will be set to use the bot
 - `app/token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section
 - `app/playing`, the activity of the bot
 
