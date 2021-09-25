@@ -59,6 +59,9 @@ To use the project correctly you will need some tools.
 
 Without forgetting of course the code editor ^^
 
+You will also need to turn on Server Members Intent in the Discord Developer Portal.
+![Example of Server Members Intent enabled](https://cdn.discordapp.com/attachments/889887818199998516/891131572605038622/unknown.png)
+
 Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
 
 Please do not withdraw the license and keep the credits on this project.
